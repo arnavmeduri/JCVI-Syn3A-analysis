@@ -26,8 +26,7 @@ hmmsearch --domtblout results Pfam-A.hmm JCVI-Syn3A.fasta
   - https://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.full.uniprot.gz (32 GB)  
 
 * From `Pfam-A.full.uniprot.gz`, extract Pfam alignments for the 110 families identified in the previous step (one file per family)  
-* Each Pfam file contains a number of alignments, each with an alignment ID and alignment sequence. The alignment ID consists of a protein ID and a sequence range.  
-  From the alignment IDs, parse the list of protein IDs and create a unique list of proteins across all 110 families in `unique_proteins.csv`  
+* Each Pfam file contains a number of alignments, each with an alignment ID and alignment sequence. The alignment ID consists of a protein ID and a sequence range.  From the alignment IDs, parse the list of protein IDs and create a unique list of proteins across all 110 families in `unique_proteins.csv`  
 * Both `uniprot_trembl.fasta.gz` and `uniprot_sprot.fasta.gz` contain protein data, including species (via the "OX=" attribute) and sequence data.  
   Using `unique_proteins.csv` as a guide, parse these files to extract `{Protein, Species}` mappings as a CSV file  
 * Create a list of proteins that belong to the *Mycoplasma* genus  
