@@ -1,4 +1,4 @@
-## Computational Elucidation of Protein-Protein Interactions in JCVI-syn3A
+## Computational elucidation of protein-protein interactions in JCVI-syn3A
 Collaborators: Arnav Meduri, Abhinav Meduri
 
 ### Overview
