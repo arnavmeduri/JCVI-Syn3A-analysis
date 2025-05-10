@@ -12,7 +12,7 @@ https://www.ncbi.nlm.nih.gov/nuccore/CP016816.2
 hmmsearch --domtblout results Pfam-A.hmm JCVI-Syn3A.fasta
 ```
 
-#### Import the `--domtblout` results into a spreadsheet or analysis tool for manual review 
+#### Import the `--domtblout` results into a spreadsheet for manual review 
 * Sort the data by the 'E-value' column and mark all accessions with E-values greater than 1e-60  
 * Graph: histogram of Pfam scores  
 * Graph: histogram of number of Pfam hits per protein  
