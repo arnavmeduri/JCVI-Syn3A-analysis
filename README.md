@@ -1,4 +1,5 @@
 ## Computational Elucidation of Protein-Protein Interactions in JCVI-syn3A
+Collaborators: Arnav Meduri, Abhinav Meduri
 
 ### Overview
 Minimal cells are fundamentally interesting in the context of studying abiogenesis and cellular engineering. This project uses the sequences of individual proteins in the cell to infer higher-level organization of those proteins into protein complexes. By comparing large collections of proteins, we identified correlations and used them to infer not only which proteins interact, but also the specific locations on the proteins where the interactions occur.
